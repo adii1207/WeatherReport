@@ -8,7 +8,7 @@
 - start the django server using the command - "python manage.py runserver"
 - api will be accesible at "http://127.0.0.1:8000/"
 - register a user using the POST  api "http://127.0.0.1:8000/weather-data/register/" with the payload { "username":"testuser1","password":"1system@"}, add the username and password
-- get the jwt token using the POST api "http://127.0.0.1:8000/api/token/" with the payload  { "username":"testuser1","password":"1system@"}, use the username and password as per the gievn username in above api
+- get the jwt token using the POST api "http://127.0.0.1:8000/api/token/" with the payload  { "username":"testuser1","password":"1system@"}, use the username and password as per the given username in above api
 - use the "access_token" generated from "http://127.0.0.1:8000/api/token/" and hit the GET api "http://127.0.0.1:8000/weather-data/report/?latitude=52.52&longitude=13.41&past_days=10", You can change the values of latitude , longitude and past_days
 
   
