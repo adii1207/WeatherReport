@@ -1,6 +1,7 @@
 # WeatherReport
 #HOW TO THE API'S
 
+- Clone the repository
 - Create a virtual environment and activate the virtual environment
 - add the required packages with command "pip install python django djangorestframework requests pandas djangorestframework-simplejwt"
 - also we need to install few more packages with commands "pip install openmeteo-requests requests-cache retry-requests numpy"
